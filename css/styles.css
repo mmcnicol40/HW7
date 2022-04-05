@@ -1,0 +1,112 @@
+h1,h2 {
+    font-family: 'Courier New';
+    color: red;
+    font-style: oblique;
+    font-size: xx-large;
+}
+
+h3 {
+    font-family: 'Courier New';
+    color: black;
+    font-style: oblique;
+    font-size: larger;
+}
+body {
+font-family: Calibri;
+font-size: large;
+}
+
+p {
+    font-family: Calibri;
+}
+
+/*  THE FOLLOWING IS FOR STYLING LINKS */
+a:link {color: blue;text-decoration: none;}
+a:visited {color:green;}
+a:hover {color:blueviolet;text-decoration: underline;}
+a:active {color:darkcyan;}
+
+/*  THE FOLLOWING IS FOR STYLING SUBMIT BUTTON */
+input {padding: 6px 12px 6px 12px; border: 1px solid green; color:blue;}
+input [type="submit"] :active {background-color: green;}
+input [type="submit"] :hover {background-color: red;}
+input [type="text"] {color: purple}
+input [type="text" ] :focus {color:orange}
+
+
+
+
+/* Unordered List Style */
+ul {
+    list-style-type:square;
+    list-style-position: inside;
+    
+}
+
+/* ordered lists numbering - lower-roman */
+ol {
+  list-style-type: lower-roman;
+}
+
+/* Table rows coloring even and hover */
+
+table {  
+  border-collapse: collapse;  
+  width: 100%;  
+}  
+  
+td {  
+  border: 2px solid blue;  
+  text-align: left;  
+  padding: 8px;  
+}  
+th {
+    border: 1px solid #dddddd;
+    background-color: darkblue;
+    color: white;
+    text-align: left;
+    padding: 8px;
+  }
+
+tr:nth-child(even) {  
+  background-color: lightgray;  
+}  
+
+tr:hover {
+    background-color: lightblue;
+}
+/* Horizontal Line */
+hr {
+    width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-width: 5px; 
+  }
+/* image style attributes */
+  img {
+    border-radius: 33%;
+    width: 300px;
+    
+  }
+
+  /* two image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 35%;
+  padding: 1px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* trying to manage width */
+p {
+  max-width: 1200px;
+  min-width: 100px;
+  background-color: darkgoldenrod;
+  border: black;
+  color: white;
+}
